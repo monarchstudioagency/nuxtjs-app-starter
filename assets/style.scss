@@ -1,0 +1,41 @@
+@import "_partials/element-variables";
+@import "_partials/variables";
+@import "_partials/usefull";
+@import "_partials/override";
+@import "_partials/common";
+
+/**
+Pages
+ */
+//@import "_partials/pages/...";
+
+/**
+Components
+ */
+@import "_partials/components/navigation";
+
+/**
+Init
+ */
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+textarea, button {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+}
+h1, h2, h3, h4, h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.font-gordita {
+  font-family: "Gordita", sans-serif;
+}
+p, a, span {
+  word-break: break-word !important;
+  font-weight: 500;
+}
